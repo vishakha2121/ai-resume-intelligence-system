@@ -1,0 +1,10 @@
+/* Dark mode variables */
+.dark {
+  --bg-primary: #1f2937;
+  --text-primary: #f9fafb;
+}
+/* Light mode (default) */
+:root {
+  --bg-primary: #ffffff;
+  --text-primary: #111827;
+}

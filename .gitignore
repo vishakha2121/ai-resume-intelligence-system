@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+env/
+.env
+*.db
+*.sqlite3
+
+# Backend uploads & logs
+backend/uploads/
+backend/logs/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Models (large cached files)
+models/sentence-transformers/
+models/fine_tuned_resume_matcher/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database files
+database/*.db
